@@ -1,5 +1,30 @@
-#video{
+.myNavbar{
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+
+.navbar-header{
+    width:100%
+
+}
+
+body{
+    text-align: center;
+
+}
+
+#welcome{
+    position: absolute;
+}
+
+.travel_mainDiv{
+    border:1px solid lightgrey;
+}
+.travel1_mainDiv img{
     width:100%;
-    height:500px;
-    border: none;
+}
+
+.travel1_mainDiv h5 ,.travel_mainDiv P{
+    margin:20px
 }
